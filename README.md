@@ -1,8 +1,6 @@
-# stu-sys
+# student sys
 
 A lightweight Python-based student management system. This repository provides a simple app to manage students, notes, reports, and basic data storage. Use `app.py` to start the application.
-
-**Repository:** itsya-ssine/stu-sys
 
 **Note:** This README is based on the current project layout. If your app requires additional configuration (database credentials, environment variables, or a specific Python version), add them in the `DB/` or project-specific docs.
 
@@ -53,29 +51,3 @@ If the app is a GUI, it should open a window. If it's a CLI or web app, follow p
 
 **Configuration**
 - If `DB/db_manager.py` expects a local database file or environment variables, update the module or provide a `.env` file (not included). Inspect `DB/db_manager.py` for required settings.
-
-**Development**
-- Make changes in the `pages/` package for UI logic.
-- Keep persistence logic inside `DB/db_manager.py`.
-
-**Testing**
-- There are no automated tests included. To add tests, create a `tests/` folder and use `pytest` or similar.
-
-**Contributing**
-- Fork the repository and open a pull request with a clear description of changes.
-- Follow the existing code style and add docstrings where appropriate.
-
-**License**
-- No license file detected. Add a `LICENSE` file to clarify usage and contribution terms.
-
-**Contact / Support**
-- For issues or questions, open an issue in the repository.
-
----
-
-If you want, I can:
-- Add a short `LICENSE` file (MIT/Apache/etc.).
-- Add a minimal `README` section specific to how `DB/db_manager.py` is configured after I inspect it.
-- Create a `run.sh` helper or a basic `Makefile` for environment setup.
-
-Tell me which of these you'd like next.
